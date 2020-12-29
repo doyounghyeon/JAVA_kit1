@@ -11,5 +11,5 @@ public class ConditionOperator {
 		
 		String result = (n1 > n2) ? "n1이 n2보다 크다" : "n1이 n2보다 작다";
 		System.out.println(result);
+		
 	}
-}
