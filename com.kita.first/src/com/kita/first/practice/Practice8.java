@@ -7,6 +7,7 @@ public class Practice8 {
 		// 6 ~ 8 : 여름
 		// 9 ~ 11 : 가을
 		// 12 ~ 2 : 겨울
+		
 		// n월은 oo입니다.
 		
 		int num = (int)(Math.random() * 12) + 1;
@@ -25,6 +26,7 @@ public class Practice8 {
 			weather = "가을";
 		}
 		System.out.printf("%d월은 %s입니다.",num,weather);
+		
 		
 		
 		
