@@ -1,5 +1,7 @@
 package com.kita.first.practice;
 
+import java.util.Scanner;
+
 public class Practice8 {
 	public static void main(String[] args) {
 		// 1 ~ 12월
@@ -10,8 +12,12 @@ public class Practice8 {
 		
 		// n월은 oo입니다.
 		
-		int num = (int)(Math.random() * 12) + 1;
+		
+		Scanner scan = new Scanner(System.in);
+		int num = scan.nextInt();
+		scan.close();
 		String weather;
+		
 		switch(num) {
 		case 12: case 1: case 2: 
 			weather = "겨울";
@@ -28,7 +34,24 @@ public class Practice8 {
 		System.out.printf("%d월은 %s입니다.",num,weather);
 		
 		
-		
+//		Scanner scan = new Scanner(System.in);
+//		int num = scan.nextInt();
+//		scan.close()
+//		String weather;
+//		
+//		//int monthNum = Integer.parseInt(month);
+//		
+//		if(num == 1 || num == 2 || num == 12) {
+//			 weather = "겨울";
+//		}else if (num == 3 || num == 4 || num == 5) {
+//			weather = "봄";
+//		}else if (num == 6 || num == 7 || num == 8) {
+//			weather = "여름";
+//		}else {
+//			weather = "가을";
+//		}
+//		System.out.printf("%d월은 %s입니다.",num,weather);
+//		
 		
 		
 		

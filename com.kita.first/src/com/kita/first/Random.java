@@ -10,5 +10,7 @@ public class Random {
 		System.out.println(num2);
 		
 		int num3 = (int)(Math.random() * 10 + 1); // 1 <= num3 * 10 + 1 < 11
+		
+		// int n = (int)(Math.random() * (max - min + 1)) +min;
 	}
 }
