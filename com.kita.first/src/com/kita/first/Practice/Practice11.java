@@ -1,4 +1,4 @@
-package com.kita.first.practice;
+package com.kita.first.Practice;
 
 public class Practice11 {
 	public static void main(String[] args) {
