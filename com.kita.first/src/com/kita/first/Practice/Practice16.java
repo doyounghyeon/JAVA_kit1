@@ -10,11 +10,10 @@ public class Practice16 {
 		// 오늘의 메뉴는 ㅇㅇ입니다
 		// 마음에 안 들면 다시 랜덤 뽑기
 		
-		//do~while, if, scan, boolean 사용
+		//do~while, if, scan 사용
 		
 		Scanner scan = new Scanner(System.in);
 		String menu;
-		boolean again = true;
 		do {
 			// 메뉴 뽑기
 			int rNum = (int)(Math.random() * 6 + 1); 
@@ -38,10 +37,8 @@ public class Practice16 {
 			if("Y".equals(result)) {
 				break;
 			}
-		}while(/* 마음에 드는지 안드는지*/again);
+		}while(/* 마음에 드는지 안드는지*/true);
 		System.out.printf("오늘의 메뉴는 %s입니다.\n",menu);
-				
-				
 			}
 	}
 
