@@ -3,7 +3,7 @@ package com.kita.first.Practice;
 public class Practice12 {
 	public static void main(String[] args) {
 		// *찍기
-		int star = 5;
+		int star = 3;
 		
 		// ***
 		for(int i = 0; i < star; i++) {
