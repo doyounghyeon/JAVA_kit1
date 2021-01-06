@@ -16,7 +16,7 @@ public class Practice16 {
 		String menu;
 		do {
 			// 메뉴 뽑기
-			int rNum = (int)(Math.random() * 6 + 1); 
+			int rNum = (int)(Math.random() * 6 )+ 1; 
 		
 			if(rNum == 1) {
 				menu = "중화요리";
@@ -38,6 +38,7 @@ public class Practice16 {
 				break;
 			}
 		}while(/* 마음에 드는지 안드는지*/true);
+		scan.close();
 		System.out.printf("오늘의 메뉴는 %s입니다.\n",menu);
 			}
 	}
