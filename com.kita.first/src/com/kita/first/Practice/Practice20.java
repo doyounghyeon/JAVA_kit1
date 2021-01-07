@@ -5,12 +5,12 @@ public class Practice20 {
 		// while문에 조건식을 사용하요
 		// 1~100을 모두 더한 값이 출력되도록 하세요
 		// 합계 : 5050
-		 int n=0;
-		 int s = 0;
-		 while(n<100){    
-		   n++;
-		   s+=n;
+		 int num=0;
+		 int sum = 0;
+		 while(num<100){    
+		   num++;
+		   sum+=num;
 		  }
-		  System.out.println("합계 : " + s);
+		  System.out.printf("합계: %d ", sum);
 	}
 }
