@@ -26,7 +26,7 @@ public class Practice28 {
 			totalCount += arr[i].length;
 		}
 		
-		System.out.printf("전체합계: %d, 평균: %.1f\n", totalSum, (float));
+		System.out.printf("전체합계: %d, 평균: %.1f\n", totalSum, (float)totalSum/totalCount);
 		
   }
 }

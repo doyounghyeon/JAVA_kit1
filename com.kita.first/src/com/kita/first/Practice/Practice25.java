@@ -34,8 +34,7 @@ public class Practice25 {
 		
 		System.out.println("--메뉴--"); 
 		for(int i=0; i<menuArr.length; i++) {
-		System.out.printf("%d. %s %d원\n", i + 1 , menuArr[i], priceArr[i]
-				);
+		System.out.printf("%d. %s %d원\n", i + 1 , menuArr[i], priceArr[i]);
 		}
 		
 		while(true) {
