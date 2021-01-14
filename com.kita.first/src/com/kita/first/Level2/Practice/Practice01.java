@@ -7,7 +7,7 @@ public class Practice01 {
 		pr.printGugudan2(2);
 		
 		for(int i=2;i<10;i++) {
-			pr.printGugudan(i);
+			pr.printGugudan2(i);
 		}
 	}
 	
