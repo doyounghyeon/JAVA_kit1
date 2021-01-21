@@ -2,7 +2,7 @@ package com.kita.first.Level2.hyori;
 
 public class LeeSangSun {
 	LeeSangSun(){
-		super("");
+		super(" ");
 	}
 	
 }

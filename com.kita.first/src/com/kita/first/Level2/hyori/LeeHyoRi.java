@@ -2,9 +2,9 @@ package com.kita.first.Level2.hyori;
 
 public class LeeHyoRi {
 	// 필드
-	public String music;
-	protected String sns;
-	private int star;
+	public String music;  //접근제한 없음
+	protected String sns; // 동일패키지 내부에서 사용가능, 예외로 다른패키지에서 이클래스를 상속받으면 사용가능  
+	private int star;	// 클래스 내부에서만 가능
 	// 생성자
 	public LeeHyoRi() {}
 	protected LeeHyoRi(String sns){

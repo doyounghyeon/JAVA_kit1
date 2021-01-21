@@ -4,13 +4,13 @@ import com.kita.first.Level2.hyori.LeeHyoRi;
 
 public class Hwasa extends LeeHyoRi{
 	
-	Hwasa(){
+	public Hwasa(){
 		super("인스타");
 		this.music = "";
 		this.sns = "";
 	//	this.star = 12;  private라서 불가
 		
-		drinkTea();
+	
 	}
 	
 	
@@ -26,7 +26,7 @@ public class Hwasa extends LeeHyoRi{
 		hr.sing();
 //		hr.drinkTea();   패키지가 다르면 디폴트도 접근불가
 //		hr.dance();      private라서 다른패키지 접근불가
-	
+		
 		
 	}
 }
