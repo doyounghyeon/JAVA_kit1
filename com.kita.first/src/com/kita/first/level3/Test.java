@@ -1,21 +1,23 @@
 package com.kita.first.level3;
 
+import java.util.Scanner;
+
 public class Test {
-	public static void main(String[] args) {
-		ProGamer hong = new ProGamer();
-		Game game = new Game();
-		hong.playGame(game);
-//		game = new StardewValley();
-//		p1.playGame(game);
-//		game = new Lol();
-//		p1.playGame(game);
-		
-		StardewValley sDew = new StardewValley();
-		hong.playGame(sDew);  // 부모객체는 자식객체에 대입가능 자동으로 변환된다. 
-		
-		Lol lol = new Lol();
-		hong.playGame(lol);
-		
+//	public static void main(String[] args) {
+//		ProGamer hong = new ProGamer();
+//		Game game = new Game();
+//		hong.playGame(game);
+////		game = new StardewValley();
+////		p1.playGame(game);
+////		game = new Lol();
+////		p1.playGame(game);
+//		
+//		StardewValley sDew = new StardewValley();
+//		hong.playGame(sDew);  // 부모객체는 자식객체에 대입가능 자동으로 변환된다. 
+//		
+//		Lol lol = new Lol();
+//		hong.playGame(lol);
+//		
 // ---------------------------------------------------------------	
 //		Animal ani = new Animal();
 //		Cat cat = new Cat();
@@ -43,29 +45,32 @@ public class Test {
 //		
 //		
 //		
-		Student minsu = new Student();
+//		Student minsu = new Student();
+//		
+//		for(int i = 1; i <= 5; i++) {
+//			int result = minsu.readBooks();
+//			switch(result) {
+//			case 1:  // minsu가 book1을 다 읽었을 경우
+//				minsu.book1 = new ComicBook(3);
+//				System.out.println("새 만화책을 가져왔다");
+//			case 2:
+//				minsu.book2 = new MajorTextBook(7);
+//				System.out.println("새 전공서적을 가져왔다");
+//			case 3:
+//				minsu.book3 = new MajorTextBook(7);
+//				System.out.println("새 책을 가져왔다");
+//				break;
+//			}
+//			System.out.println("--------------------------------------");
+//			
+//		}
+//		
 		
-		for(int i = 1; i <= 5; i++) {
-			int result = minsu.readBooks();
-			switch(result) {
-			case 1:  // minsu가 book1을 다 읽었을 경우
-				minsu.book1 = new ComicBook(3);
-				System.out.println("새 만화책을 가져왔다");
-			case 2:
-				minsu.book2 = new MajorTextBook(7);
-				System.out.println("새 전공서적을 가져왔다");
-			case 3:
-				minsu.book3 = new MajorTextBook(7);
-				System.out.println("새 책을 가져왔다");
-				break;
-			}
-			System.out.println("--------------------------------------");
-			
-		}
-		
-		
-		
-	
+		public static void main(String[] args) {
+		ScanNum sn = new ScanNum();
+		String str = sn.inputNumString();
+		int result = Utils.parseStrToInt(str); //Integer.parseInt(scan.next());
+		sn.printMsg(result);
 	}
 	}
 

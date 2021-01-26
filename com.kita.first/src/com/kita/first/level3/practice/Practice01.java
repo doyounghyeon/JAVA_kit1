@@ -14,7 +14,7 @@ public class Practice01 {
 			num = Integer.parseInt(result);
 		}catch(Exception e) {
 			// 변환실패 출력
-			e.printStackTrace();
+			//e.printStackTrace();
 			num = 0;
 			System.out.println("변환실패");
 		}
