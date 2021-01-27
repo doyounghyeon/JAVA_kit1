@@ -1,6 +1,7 @@
 package com.kita.first.level3;
 
-public class Animal extends Object{
+public abstract class Animal extends Object{
+	// abstract를 사용하면 new클래스로 생성불가하고 상속만 가능하다.
 	Animal(){
 		super();
 	}

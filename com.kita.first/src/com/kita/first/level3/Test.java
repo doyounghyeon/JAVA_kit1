@@ -3,6 +3,13 @@ package com.kita.first.level3;
 import java.util.Scanner;
 
 public class Test {
+	
+	Animal ani = new Animal();
+	
+	
+	
+	
+
 //	public static void main(String[] args) {
 //		ProGamer hong = new ProGamer();
 //		Game game = new Game();
@@ -66,11 +73,23 @@ public class Test {
 //		}
 //		
 		
-		public static void main(String[] args) {
-		ScanNum sn = new ScanNum();
-		String str = sn.inputNumString();
-		int result = Utils.parseStrToInt(str); //Integer.parseInt(scan.next());
-		sn.printMsg(result);
-	}
-	}
+//		public static void main(String[] args) {
+//		ScanNum sn = new ScanNum();
+//		String str = sn.inputNumString();
+//		int result = Utils.parseStrToInt(str); //Integer.parseInt(scan.next());
+//		sn.printMsg(result);
+//	}
+//	}
 
+	
+	
+
+
+}
+
+
+	
+	
+	
+	
+	

@@ -20,11 +20,11 @@ public class Menu {
  // 메소드
 
  // 메뉴배열에 메뉴이름 집어넣기
- public void setMenuItem(int index, String item) {
+ void setMenuItem(int index, String item) {
 	menuArr[index] = item;
 }
  // 가격배열에 메뉴가격 집어넣기
- public void setMenuPrice(int index, int price) {
+ void setMenuPrice(int index, int price) {
 	priceArr[index] = price;
 }
  
@@ -39,21 +39,21 @@ public class Menu {
  }
  
  // 메뉴배열에 순차적으로 값 입력
- void intputArrItems(String[] arr){
+ public void inputArrItems(){
 	 Scanner scan = new Scanner(System.in);
-	 for(int i = 0; i < arr.length; i++) {
+	 for(int i = 0; i < menuArr.length; i++) {
 		 System.out.printf("%d번째 값 입력 : ", i + 1);
 		 String str = scan.next();
-		 arr[i] = str;
+		 menuArr[i] = str;
 	 }
 	 scan.close();
  }
  
  // 가격배열에 순차적으로 값 입력
- 
- void intputArrItems(int[] arr){
+
+ public void inputArrPrices(){
 	 Scanner scan = new Scanner(System.in);
-	 for(int i = 0; i < arr.length; i++) {
+	 for(int i = 0; i < priceArr.length; i++) {
 		 System.out.printf("%d번째 값 입력 : ", i + 1);
 		 String str = scan.next();
 		 int result = Utils.parseStrToInt(str); 
@@ -62,7 +62,7 @@ public class Menu {
 			 i--;
 			 continue;
 		 }
-		 arr[i] = result;
+		 priceArr[i] = result;
 	 }
 	 scan.close();
  }
