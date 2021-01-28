@@ -47,7 +47,7 @@ public class Game {
 	}
 	// 메뉴 가격 합산
 	void sumMenuPrice(Menu menu, int num) {
-		totalPrice += menu.getMenuPrice(num);
+		totalPrice += menu.getMenuPrice(num - 1);
 	}
 	
 	// 입력받은 번호의 음료내용 프린트

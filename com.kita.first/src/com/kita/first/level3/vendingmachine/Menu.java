@@ -46,7 +46,7 @@ public class Menu {
 		 String str = scan.next();
 		 menuArr[i] = str;
 	 }
-	 scan.close();
+	
  }
  
  // 가격배열에 순차적으로 값 입력
@@ -64,6 +64,6 @@ public class Menu {
 		 }
 		 priceArr[i] = result;
 	 }
-	 scan.close();
+
  }
 }
